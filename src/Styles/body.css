@@ -1,0 +1,51 @@
+body {
+    /* background-image: (url("https://drive.google.com/file/d/0Bz-nWRh0Ncp3dGJWYWkyWFBqTDA/view?usp=sharing"));
+    background-attachment: fixed; */
+    /* background-color: yellowgreen; */
+    height: 100%;
+    width: 100%;
+    background-color: #2e3d44;
+    font-family:Courier;
+}
+@media only screen and (max-width: 650px) {
+    .fRight {
+        float: right;
+        background-color: #2e3d44;
+        margin-right: 5px;
+        /* margin-top: 90px; */
+        margin-left: 15px;
+    }
+  }
+  @media only screen and (min-width: 650px) {
+    .fRight {
+        float: right;
+        background-color: #2e3d44;
+        margin-right: 150px;
+        margin-top: 90px;
+        margin-left: 150px;
+    }
+  }
+
+.NameStyle {
+    color:  white;
+}
+.linkUnderLine {
+    text-decoration: underline;
+}
+.h4Color {
+    color: #bababa;
+    font-family:verdana;
+}
+.imageSize {
+    float: left;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height: 250px;
+    width: 250px;
+}
+.iconSize {
+    /* height: 25px;
+    width: 25px;
+    margin: 10px; */
+}

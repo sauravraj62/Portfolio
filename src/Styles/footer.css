@@ -1,0 +1,13 @@
+h4 {
+    color:  white;
+    font-family:verdana;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0a0c0d;
+    color: white;
+    text-align: center;
+}
