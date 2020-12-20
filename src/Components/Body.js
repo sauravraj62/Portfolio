@@ -3,7 +3,7 @@ import BodyStyles from '../Styles/body.css'
 import Resume from '../Resources/SauravRaj_Resume.pdf'
 import BG from '../Resources/image.png'
 function Body() {
-    return (<div className="BodyStyles" >
+    return (<div className="inlineBlock" >
                 <div className="fRight">
                     <h1 className="NameStyle">SAURAV RAJ</h1>
                     <h3 className="NameStyle">Solving business problems for <a target="_blank" className="linkUnderLine" href="https://tekion.com/"><i>Tekion Corp, Bangalore</i></a></h3>
@@ -22,7 +22,9 @@ function Body() {
                     </div>
                 </div>
                 
-                <img className="imageSize" src={BG}></img>
+                <div className="divCenter">
+                    <img className="imageSize" src={BG}></img>
+                </div>
 
                 
             </div>);
